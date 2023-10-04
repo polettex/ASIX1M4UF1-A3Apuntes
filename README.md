@@ -38,3 +38,9 @@ Este texto está en **_negrita y cursiva_**.
 [Esto es un enlace](http://joan23.fje.edu "Enlace a la web del cole")
 
 ![Esto es una imagen](https://raw.githubusercontent.com/polettex/ASIX1M4UF1-A3Apuntes/aa7c1c85a0b76f082bbb92d680a2d3d35fd5964d/planeta.jpg "Enlace de la imagen")
+
+|Primera Col.|Segunda Col.|Tercera Col.|
+|---------------|:------------:|---------------|
+|Col 2 es|Centrada|35€|
+|Estilo Cebra|Gris|Blanco|
+|Clase |ASIX1|M4|
