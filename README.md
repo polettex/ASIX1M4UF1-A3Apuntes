@@ -44,3 +44,7 @@ Este texto está en **_negrita y cursiva_**.
 |Col 2 es|Centrada|35€|
 |Estilo Cebra|Gris|Blanco|
 |Clase |ASIX1|M4|
+
+-[] Opcion 1
+-[X] Opcion 2
+-[] Opcion 3
