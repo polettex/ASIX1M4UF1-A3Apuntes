@@ -51,6 +51,7 @@ Este texto está en **_negrita y cursiva_**.
 
 - [] Opcion 3
 
+``
 
 Etiquetas HTML:
 
@@ -66,3 +67,5 @@ Etiquetas HTML:
 - Esto sirve para crear una lista ordenada <ol>
 - Esto sirve para crear una lista desordenada <ul>
 - Esto sirve para crear los puntos de una lista <li>
+
+``
