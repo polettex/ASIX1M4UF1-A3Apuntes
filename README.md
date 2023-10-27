@@ -45,6 +45,24 @@ Este texto está en **_negrita y cursiva_**.
 |Estilo Cebra|Gris|Blanco|
 |Clase |ASIX1|M4|
 
--[] Opcion 1
--[X] Opcion 2
--[] Opcion 3
+- [] Opcion 1
+
+- [X] Opcion 2
+
+- [] Opcion 3
+
+
+Etiquetas HTML:
+
+- Esto es un encabezado <h1>
+- Esto es un subtitulo <h3>
+- Esto sirve para crear enlaces <a>
+- Esto sirve para insertar imagenes <img>
+- Esto sirve para subrayar <u>
+- Esto sirve para poner el texto en negrita <strong>
+- Esto sirve para crear parrafos <p>
+- Esto sirve para hacer una linea horizontal <hr>
+- Esto sirve para hacer un salto de linea <br>
+- Esto sirve para crear una lista ordenada <ol>
+- Esto sirve para crear una lista desordenada <ul>
+- Esto sirve para crear los puntos de una lista <li>
