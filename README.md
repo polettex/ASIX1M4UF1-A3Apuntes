@@ -16,13 +16,13 @@ GitHub Pages es un servicio de alojamiento de sitio estático que toma archivos 
 
 ## MARKDOWN:
 
-Para poner en cursiva el texto se puede usar el símbolo (*) o (_). El texto que queramos poner en cursiva debe llevar una (*) por delante y una (*) por atrás.
+Para poner en cursiva el texto se puede usar el asterisco o el guión bajo. El texto que queramos poner en cursiva debe llevar un (*) por delante y por atrás.
 
 Este texto está en *cursiva*.
 
 Este texto está en _cursiva_.
 
-Para poner en negrita el texto se puede usar el símbolo (*) o (_). El texto que queramos poner en cursiva debe llevar dos (*) por delante y dos (*) por atrás.
+Para poner en negrita el texto se puede usar el asterisco o el guión bajo. El texto que queramos poner en cursiva debe llevar dos (*) por delante y dos por atrás.
 
 Este texto está en **negrita**.
 
