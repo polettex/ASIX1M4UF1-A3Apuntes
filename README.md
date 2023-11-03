@@ -4,14 +4,25 @@ Actividad 3, apuntes de M4
 
 #### GITHUB
 
+Es una plataforma de desarrollo colaborativo para alojar proyectos en la nube.
 
+**Repositorios.**
+
+Un repositorio es el lugar donde puedes almacenar el código, los archivos y el historial de revisiones de cada archivo.
+
+**GitHub Pages**
+
+GitHub Pages es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.
 
 #### MARKDOWN:
 
+Para poner en cursiva el texto se puede usar el símbolo (*) o (_). El texto que queramos poner en cursiva debe llevar una (*) por delante y una (*) por atrás.
 Este texto está en *cursiva*.
 Este texto está en _cursiva_.
+Para poner en negrita el texto se puede usar el símbolo (*) o (_). El texto que queramos poner en cursiva debe llevar dos (*) por delante y dos (*) por atrás.
 Este texto está en **negrita**.
 Este texto está en __negrita__.
+Para poner en negrita y cursiva el texto se combina el método de poner en negirta y en cursiva.
 Este texto está en **_negrita y cursiva_**.
 
 1. Primera opción de menú.
@@ -39,15 +50,26 @@ Este texto está en **_negrita y cursiva_**.
 |Estilo Cebra|Gris|Blanco|
 |Clase |ASIX1|M4|
 
-- [] Opcion 1
+[] Opcion 1
 
-- [X] Opcion 2
+[X] Opcion 2
 
-- [] Opcion 3
+[] Opcion 3
 
 #### HTML:
 
 Estructura HTML:
+
+Cualquier página web debe contener al menos este código para desarrollarse correctamente.
+
+```
+- <!DOCTYPE html>: se utiliza para indicar la versión HTML 5.0 (la usada actualmente).
+- <html> </html>: es el elemento raíz y es el más importante dentro de la estructura HTML, pues es el que contendrá el resto de las etiquetas de atributos de la página web. 
+- <head> </head>: es la etiqueta principal que incluye metadatos; son atributos que no se muestran al usuario, solo describen referencias de la página, por ejemplo, título o página CSS.
+- <body> </body>: es la etiqueta para desarrollar todo el cuerpo de la página web y engloba datos desde textos hasta enlaces.
+```
+
+Ejemplo.
 
 ```
 <html>
@@ -59,9 +81,9 @@ Estructura HTML:
 </html>
 ```
 
-```
 Etiquetas HTML:
 
+```
 - Esto es un encabezado <h1>
 - Esto es un subtitulo <h3>
 - Esto sirve para crear enlaces <a>
@@ -85,7 +107,7 @@ Formas de insertar CSS en un documento HTML:
 
 - CSS interno
 
-El CSS interno requiere que se añada la etiqueta <style> en la sección <head> del documento HTML.
+El CSS interno requiere que se añada la etiqueta style en la sección head del documento HTML.
 
 Ejemplo.
 
@@ -114,7 +136,7 @@ Ejemplo.
 
 Con el CSS externo, se enlazará la página web a un archivo css externo. Este tipo de CSS es un método más eficiente, especialmente para estilizar un sitio web grande.
 
-Para enlazar un archivo css externo se usará la etiqueta <link> en el head para enlazar el css al html.
+Para enlazar un archivo css externo se usará la etiqueta link en el head para enlazar el css al html.
 
 Ejemplo.
 
