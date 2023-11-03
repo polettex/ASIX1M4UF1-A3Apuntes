@@ -2,7 +2,7 @@
 
 Actividad 3, apuntes de M4
 
-#### GITHUB
+## GITHUB
 
 Es una plataforma de desarrollo colaborativo para alojar proyectos en la nube.
 
@@ -14,7 +14,7 @@ Un repositorio es el lugar donde puedes almacenar el código, los archivos y el 
 
 GitHub Pages es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.
 
-#### MARKDOWN:
+## MARKDOWN:
 
 Para poner en cursiva el texto se puede usar el símbolo (*) o (_). El texto que queramos poner en cursiva debe llevar una (*) por delante y una (*) por atrás.
 Este texto está en *cursiva*.
@@ -56,7 +56,7 @@ Este texto está en **_negrita y cursiva_**.
 
 [] Opcion 3
 
-#### HTML:
+## HTML:
 
 Estructura HTML:
 
@@ -99,7 +99,7 @@ Etiquetas HTML:
 
 ```
 
-#### CSS:
+## CSS:
 
 El CSS es un lenguaje que se utiliza para dar instrucciones referentes a la apariencia de una página.
 
