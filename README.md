@@ -2,7 +2,11 @@
 
 Actividad 3, apuntes de M4
 
-#### Primer capítulo: MARKDOWN
+#### GITHUB
+
+
+
+#### MARKDOWN:
 
 Este texto está en *cursiva*.
 Este texto está en _cursiva_.
@@ -25,16 +29,6 @@ Este texto está en **_negrita y cursiva_**.
 + Quinta opción de lista desordenada
 + Sexta opción de lista desordenada
 
-```
-<html>
-    <head>
-    </head>
-    <body>
-        <p>Esto es un párrafo</p>
-    </body>
-</html>
-```
-
 [Esto es un enlace](http://joan23.fje.edu "Enlace a la web del cole")
 
 ![Esto es una imagen](https://raw.githubusercontent.com/polettex/ASIX1M4UF1-A3Apuntes/aa7c1c85a0b76f082bbb92d680a2d3d35fd5964d/planeta.jpg "Enlace de la imagen")
@@ -51,8 +45,21 @@ Este texto está en **_negrita y cursiva_**.
 
 - [] Opcion 3
 
+#### HTML:
+
+Estructura HTML:
+
+```
+<html>
+    <head>
+    </head>
+    <body>
+        <p>Esto es un párrafo</p>
+    </body>
+</html>
 ```
 
+```
 Etiquetas HTML:
 
 - Esto es un encabezado <h1>
@@ -68,4 +75,77 @@ Etiquetas HTML:
 - Esto sirve para crear una lista desordenada <ul>
 - Esto sirve para crear los puntos de una lista <li>
 
+```
+
+#### CSS:
+
+El CSS es un lenguaje que se utiliza para dar instrucciones referentes a la apariencia de una página.
+
+Formas de insertar CSS en un documento HTML:
+
+- CSS interno
+
+El CSS interno requiere que se añada la etiqueta <style> en la sección <head> del documento HTML.
+
+Ejemplo.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: blue;
+            }
+        h1 {
+            color: red;
+            padding: 60px;
+        } 
+    </style>
+</head>
+<body>
+    <h1>Ejemplo</h1>
+    <p>Esto es un párrafo</p>
+</body>
+</html>
+```
+
+- CSS Externo
+
+Con el CSS externo, se enlazará la página web a un archivo css externo. Este tipo de CSS es un método más eficiente, especialmente para estilizar un sitio web grande.
+
+Para enlazar un archivo css externo se usará la etiqueta <link> en el head para enlazar el css al html.
+
+Ejemplo.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <h1>Ejemplo</h1>
+    <p>Esto es un párrafo</p>
+</body>
+</html>
+```
+
+- CSS Inline
+
+El CSS inline se utiliza para dar estilo a un elemento HTML específico. Para este tipo de estilo CSS, sólo se tiene que añadir el atributo style a cada etiqueta HTML. 
+
+Este tipo de CSS no es realmente recomendable, ya que cada etiqueta HTML debe ser estilizada individualmente.
+
+Ejemplo.
+
+```
+<html>
+<head>
+</head>
+<body style="background-color:black;">
+    <h1 style="color:white;padding:30px;">Ejemplo</h1>
+    <p style="color:white;">Esto es un párrafo.</p>
+</body>
+</html>
 ```
