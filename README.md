@@ -178,3 +178,48 @@ Ejemplo.
 </body>
 </html>
 ```
+
+## Diseño responsive
+
+El diseño web responsive es una técnica de diseño web que busca la correcta visualización de una misma página en distintos dispositivos. Desde ordenadores de escritorio a móviles.
+
+Se trata de redimensionar y colocar los elementos de la web de forma que se adapten al ancho de cada dispositivo permitiendo una correcta visualización y una mejor experiencia de usuario.
+
+- Comandos diseño responsive
+
+El primer comando a mostrar y uno de los más importantes es el display, que sirve para colocar los div como si fueran celdas o bloques.
+
+Ejemplo.
+
+```
+.flex {
+    display: flex;
+}
+```
+
+Otro comando importante en un diseño responsive es el comando float, que sirve para colocar en un lado u otro del contenedor.
+
+Ejemplo.
+
+```
+.left {
+    float: left;
+}
+```
+
+- Mediaquery
+
+Las mediaqueries permiten aplicar estilos CSS según el tipo de dispositivo, lo cúal va por el tamaño o resolución de la pantalla o del ancho del viewport del navegador.
+
+Ejemplo.
+
+```
+@media only screen and (max-width: 700px){
+    img{
+        width: 600px;
+    }
+    .column2{
+        width: 100%;
+    }
+}
+```
